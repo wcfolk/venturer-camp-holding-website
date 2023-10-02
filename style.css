@@ -29,6 +29,11 @@ body{
     flex-direction:column;
 }
 
+.smol-section{
+    margin: 0 auto 3em auto;
+    width: 60%;
+}
+
 .top-gap{
     margin-top: 3em;
 }
