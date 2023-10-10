@@ -18,9 +18,9 @@ body{
 
 .fw-section{
     /* border: 1px solid black; */
-    height: 15em;
+    /* height: 15em; */
     margin: 0 0 3em 0;
-    text-align: center;
+    /* text-align: center; */
     /* height: 90%;  */
     width:100%;
     display:flex;
@@ -52,4 +52,45 @@ body{
 
 .red-bg{
     background-color: var(--wcfRed);
+}
+
+/* HOME PAGE SOCIAL ITEMS */
+.social-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.social-menu > a{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 0.5em 1em 0.5em 1em;
+    margin: 0.5em;
+    border-left: 3px solid var(--wcfGreen);
+    width: 15em;
+    height: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 120%;
+    color: black;
+}
+
+.social-menu p{
+    text-align: center;
+}
+.social-menu i{
+    margin-right: 1em;
+}
+
+.social-menu > a:hover{
+    transform: scale(1.05);
+}
+
+.yellow-edge > a{
+    border-left-color: var(--wcfRed);
 }
